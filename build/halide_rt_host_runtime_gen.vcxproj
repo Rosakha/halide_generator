@@ -1,0 +1,304 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{D6F60036-AF3B-3345-BAA8-2A1D9116B647}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>halide_rt_host_runtime_gen</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\vagrant\Documents\halide-sandbox\project\tutorial\halide_generator\build\CMakeFiles\3c912e9999127bc3c09db238ebca0825\halide_rt_host.lib.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo copying C:/Users/vagrant/Documents/halide-sandbox/project/tutorial/halide_generator/bin/Halide.dll to C:/Users/vagrant/Documents/halide-sandbox/project/tutorial/halide_generator/build/Debug
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/vagrant/Documents/halide-sandbox/project/tutorial/halide_generator/bin/Halide.dll C:/Users/vagrant/Documents/halide-sandbox/project/tutorial/halide_generator/build/Debug
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo Running C:/Users/vagrant/Documents/halide-sandbox/project/tutorial/halide_generator/build/Debug/halide_library_runtime.generator_binary.exe -o C:/Users/vagrant/Documents/halide-sandbox/project/tutorial/halide_generator/build/$(Configuration)/genfiles/halide_rt_host -r halide_rt_host target=host
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E env ASAN_OPTIONS=detect_leaks=0 C:/Users/vagrant/Documents/halide-sandbox/project/tutorial/halide_generator/build/Debug/halide_library_runtime.generator_binary.exe -o C:/Users/vagrant/Documents/halide-sandbox/project/tutorial/halide_generator/build/$(Configuration)/genfiles/halide_rt_host -r halide_rt_host target=host
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/vagrant/Documents/halide-sandbox/project/tutorial/halide_generator/build/CMakeFiles/3c912e9999127bc3c09db238ebca0825/halide_rt_host.lib.rule;C:\Users\vagrant\Documents\halide-sandbox\project\tutorial\halide_generator\build\Debug\halide_library_runtime.generator_binary.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\vagrant\Documents\halide-sandbox\project\tutorial\halide_generator\build\$(Configuration)\genfiles\halide_rt_host\halide_rt_host.lib</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo copying C:/Users/vagrant/Documents/halide-sandbox/project/tutorial/halide_generator/bin/Halide.dll to C:/Users/vagrant/Documents/halide-sandbox/project/tutorial/halide_generator/build/Release
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/vagrant/Documents/halide-sandbox/project/tutorial/halide_generator/bin/Halide.dll C:/Users/vagrant/Documents/halide-sandbox/project/tutorial/halide_generator/build/Release
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo Running C:/Users/vagrant/Documents/halide-sandbox/project/tutorial/halide_generator/build/Release/halide_library_runtime.generator_binary.exe -o C:/Users/vagrant/Documents/halide-sandbox/project/tutorial/halide_generator/build/$(Configuration)/genfiles/halide_rt_host -r halide_rt_host target=host
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E env ASAN_OPTIONS=detect_leaks=0 C:/Users/vagrant/Documents/halide-sandbox/project/tutorial/halide_generator/build/Release/halide_library_runtime.generator_binary.exe -o C:/Users/vagrant/Documents/halide-sandbox/project/tutorial/halide_generator/build/$(Configuration)/genfiles/halide_rt_host -r halide_rt_host target=host
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/vagrant/Documents/halide-sandbox/project/tutorial/halide_generator/build/CMakeFiles/3c912e9999127bc3c09db238ebca0825/halide_rt_host.lib.rule;C:\Users\vagrant\Documents\halide-sandbox\project\tutorial\halide_generator\build\Release\halide_library_runtime.generator_binary.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\vagrant\Documents\halide-sandbox\project\tutorial\halide_generator\build\$(Configuration)\genfiles\halide_rt_host\halide_rt_host.lib</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo copying C:/Users/vagrant/Documents/halide-sandbox/project/tutorial/halide_generator/bin/Halide.dll to C:/Users/vagrant/Documents/halide-sandbox/project/tutorial/halide_generator/build/MinSizeRel
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/vagrant/Documents/halide-sandbox/project/tutorial/halide_generator/bin/Halide.dll C:/Users/vagrant/Documents/halide-sandbox/project/tutorial/halide_generator/build/MinSizeRel
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo Running C:/Users/vagrant/Documents/halide-sandbox/project/tutorial/halide_generator/build/MinSizeRel/halide_library_runtime.generator_binary.exe -o C:/Users/vagrant/Documents/halide-sandbox/project/tutorial/halide_generator/build/$(Configuration)/genfiles/halide_rt_host -r halide_rt_host target=host
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E env ASAN_OPTIONS=detect_leaks=0 C:/Users/vagrant/Documents/halide-sandbox/project/tutorial/halide_generator/build/MinSizeRel/halide_library_runtime.generator_binary.exe -o C:/Users/vagrant/Documents/halide-sandbox/project/tutorial/halide_generator/build/$(Configuration)/genfiles/halide_rt_host -r halide_rt_host target=host
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/vagrant/Documents/halide-sandbox/project/tutorial/halide_generator/build/CMakeFiles/3c912e9999127bc3c09db238ebca0825/halide_rt_host.lib.rule;C:\Users\vagrant\Documents\halide-sandbox\project\tutorial\halide_generator\build\MinSizeRel\halide_library_runtime.generator_binary.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\vagrant\Documents\halide-sandbox\project\tutorial\halide_generator\build\$(Configuration)\genfiles\halide_rt_host\halide_rt_host.lib</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo copying C:/Users/vagrant/Documents/halide-sandbox/project/tutorial/halide_generator/bin/Halide.dll to C:/Users/vagrant/Documents/halide-sandbox/project/tutorial/halide_generator/build/RelWithDebInfo
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/vagrant/Documents/halide-sandbox/project/tutorial/halide_generator/bin/Halide.dll C:/Users/vagrant/Documents/halide-sandbox/project/tutorial/halide_generator/build/RelWithDebInfo
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo Running C:/Users/vagrant/Documents/halide-sandbox/project/tutorial/halide_generator/build/RelWithDebInfo/halide_library_runtime.generator_binary.exe -o C:/Users/vagrant/Documents/halide-sandbox/project/tutorial/halide_generator/build/$(Configuration)/genfiles/halide_rt_host -r halide_rt_host target=host
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E env ASAN_OPTIONS=detect_leaks=0 C:/Users/vagrant/Documents/halide-sandbox/project/tutorial/halide_generator/build/RelWithDebInfo/halide_library_runtime.generator_binary.exe -o C:/Users/vagrant/Documents/halide-sandbox/project/tutorial/halide_generator/build/$(Configuration)/genfiles/halide_rt_host -r halide_rt_host target=host
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/vagrant/Documents/halide-sandbox/project/tutorial/halide_generator/build/CMakeFiles/3c912e9999127bc3c09db238ebca0825/halide_rt_host.lib.rule;C:\Users\vagrant\Documents\halide-sandbox\project\tutorial\halide_generator\build\RelWithDebInfo\halide_library_runtime.generator_binary.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\vagrant\Documents\halide-sandbox\project\tutorial\halide_generator\build\$(Configuration)\genfiles\halide_rt_host\halide_rt_host.lib</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\vagrant\Documents\halide-sandbox\project\tutorial\halide_generator\build\CMakeFiles\62dd908a7cddd32e7dd759d85b44b3cb\halide_rt_host_runtime_gen.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/vagrant/Documents/halide-sandbox/project/tutorial/halide_generator/build/CMakeFiles/62dd908a7cddd32e7dd759d85b44b3cb/halide_rt_host_runtime_gen.rule;C:\Users\vagrant\Documents\halide-sandbox\project\tutorial\halide_generator\build\$(Configuration)\genfiles\halide_rt_host\halide_rt_host.lib;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\vagrant\Documents\halide-sandbox\project\tutorial\halide_generator\build\CMakeFiles\halide_rt_host_runtime_gen</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/vagrant/Documents/halide-sandbox/project/tutorial/halide_generator/build/CMakeFiles/62dd908a7cddd32e7dd759d85b44b3cb/halide_rt_host_runtime_gen.rule;C:\Users\vagrant\Documents\halide-sandbox\project\tutorial\halide_generator\build\$(Configuration)\genfiles\halide_rt_host\halide_rt_host.lib;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\vagrant\Documents\halide-sandbox\project\tutorial\halide_generator\build\CMakeFiles\halide_rt_host_runtime_gen</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/vagrant/Documents/halide-sandbox/project/tutorial/halide_generator/build/CMakeFiles/62dd908a7cddd32e7dd759d85b44b3cb/halide_rt_host_runtime_gen.rule;C:\Users\vagrant\Documents\halide-sandbox\project\tutorial\halide_generator\build\$(Configuration)\genfiles\halide_rt_host\halide_rt_host.lib;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\vagrant\Documents\halide-sandbox\project\tutorial\halide_generator\build\CMakeFiles\halide_rt_host_runtime_gen</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/vagrant/Documents/halide-sandbox/project/tutorial/halide_generator/build/CMakeFiles/62dd908a7cddd32e7dd759d85b44b3cb/halide_rt_host_runtime_gen.rule;C:\Users\vagrant\Documents\halide-sandbox\project\tutorial\halide_generator\build\$(Configuration)\genfiles\halide_rt_host\halide_rt_host.lib;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\vagrant\Documents\halide-sandbox\project\tutorial\halide_generator\build\CMakeFiles\halide_rt_host_runtime_gen</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\vagrant\Documents\halide-sandbox\project\tutorial\halide_generator\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/vagrant/Documents/halide-sandbox/project/tutorial/halide_generator/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/vagrant/Documents/halide-sandbox/project/tutorial/halide_generator -BC:/Users/vagrant/Documents/halide-sandbox/project/tutorial/halide_generator/build --check-stamp-file C:/Users/vagrant/Documents/halide-sandbox/project/tutorial/halide_generator/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/vagrant/Documents/halide-sandbox/project/tutorial/halide_generator/CMakeLists.txt;C:\Users\vagrant\Documents\halide-sandbox\project\tutorial\halide_generator\CMakeLists.txt;C:\Users\vagrant\Documents\halide-sandbox\project\tutorial\halide_generator\build\CMakeFiles\3.11.1\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\vagrant\Documents\halide-sandbox\project\tutorial\halide_generator\build\CMakeFiles\3.11.1\CMakeCCompiler.cmake;C:\Users\vagrant\Documents\halide-sandbox\project\tutorial\halide_generator\build\CMakeFiles\3.11.1\CMakeCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Platform\Windows-MSVC.cmake;C:\Users\vagrant\Documents\halide-sandbox\project\tutorial\halide_generator\build\CMakeFiles\3.11.1\CMakeRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\vagrant\Documents\halide-sandbox\project\tutorial\halide_generator\halide.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\FindPNG.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\FindZLIB.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\SelectLibraryConfigurations.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\FindJPEG.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\FindPackageMessage.cmake;C:\Users\vagrant\Documents\halide-sandbox\project\tutorial\halide_generator\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\vagrant\Documents\halide-sandbox\project\tutorial\halide_generator\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/vagrant/Documents/halide-sandbox/project/tutorial/halide_generator/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/vagrant/Documents/halide-sandbox/project/tutorial/halide_generator -BC:/Users/vagrant/Documents/halide-sandbox/project/tutorial/halide_generator/build --check-stamp-file C:/Users/vagrant/Documents/halide-sandbox/project/tutorial/halide_generator/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/vagrant/Documents/halide-sandbox/project/tutorial/halide_generator/CMakeLists.txt;C:\Users\vagrant\Documents\halide-sandbox\project\tutorial\halide_generator\CMakeLists.txt;C:\Users\vagrant\Documents\halide-sandbox\project\tutorial\halide_generator\build\CMakeFiles\3.11.1\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\vagrant\Documents\halide-sandbox\project\tutorial\halide_generator\build\CMakeFiles\3.11.1\CMakeCCompiler.cmake;C:\Users\vagrant\Documents\halide-sandbox\project\tutorial\halide_generator\build\CMakeFiles\3.11.1\CMakeCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Platform\Windows-MSVC.cmake;C:\Users\vagrant\Documents\halide-sandbox\project\tutorial\halide_generator\build\CMakeFiles\3.11.1\CMakeRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\vagrant\Documents\halide-sandbox\project\tutorial\halide_generator\halide.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\FindPNG.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\FindZLIB.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\SelectLibraryConfigurations.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\FindJPEG.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\FindPackageMessage.cmake;C:\Users\vagrant\Documents\halide-sandbox\project\tutorial\halide_generator\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\vagrant\Documents\halide-sandbox\project\tutorial\halide_generator\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/vagrant/Documents/halide-sandbox/project/tutorial/halide_generator/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/vagrant/Documents/halide-sandbox/project/tutorial/halide_generator -BC:/Users/vagrant/Documents/halide-sandbox/project/tutorial/halide_generator/build --check-stamp-file C:/Users/vagrant/Documents/halide-sandbox/project/tutorial/halide_generator/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/vagrant/Documents/halide-sandbox/project/tutorial/halide_generator/CMakeLists.txt;C:\Users\vagrant\Documents\halide-sandbox\project\tutorial\halide_generator\CMakeLists.txt;C:\Users\vagrant\Documents\halide-sandbox\project\tutorial\halide_generator\build\CMakeFiles\3.11.1\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\vagrant\Documents\halide-sandbox\project\tutorial\halide_generator\build\CMakeFiles\3.11.1\CMakeCCompiler.cmake;C:\Users\vagrant\Documents\halide-sandbox\project\tutorial\halide_generator\build\CMakeFiles\3.11.1\CMakeCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Platform\Windows-MSVC.cmake;C:\Users\vagrant\Documents\halide-sandbox\project\tutorial\halide_generator\build\CMakeFiles\3.11.1\CMakeRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\vagrant\Documents\halide-sandbox\project\tutorial\halide_generator\halide.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\FindPNG.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\FindZLIB.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\SelectLibraryConfigurations.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\FindJPEG.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\FindPackageMessage.cmake;C:\Users\vagrant\Documents\halide-sandbox\project\tutorial\halide_generator\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\vagrant\Documents\halide-sandbox\project\tutorial\halide_generator\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/vagrant/Documents/halide-sandbox/project/tutorial/halide_generator/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/vagrant/Documents/halide-sandbox/project/tutorial/halide_generator -BC:/Users/vagrant/Documents/halide-sandbox/project/tutorial/halide_generator/build --check-stamp-file C:/Users/vagrant/Documents/halide-sandbox/project/tutorial/halide_generator/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/vagrant/Documents/halide-sandbox/project/tutorial/halide_generator/CMakeLists.txt;C:\Users\vagrant\Documents\halide-sandbox\project\tutorial\halide_generator\CMakeLists.txt;C:\Users\vagrant\Documents\halide-sandbox\project\tutorial\halide_generator\build\CMakeFiles\3.11.1\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\vagrant\Documents\halide-sandbox\project\tutorial\halide_generator\build\CMakeFiles\3.11.1\CMakeCCompiler.cmake;C:\Users\vagrant\Documents\halide-sandbox\project\tutorial\halide_generator\build\CMakeFiles\3.11.1\CMakeCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Platform\Windows-MSVC.cmake;C:\Users\vagrant\Documents\halide-sandbox\project\tutorial\halide_generator\build\CMakeFiles\3.11.1\CMakeRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\vagrant\Documents\halide-sandbox\project\tutorial\halide_generator\halide.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\FindPNG.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\FindZLIB.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\SelectLibraryConfigurations.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\FindJPEG.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\FindPackageMessage.cmake;C:\Users\vagrant\Documents\halide-sandbox\project\tutorial\halide_generator\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\vagrant\Documents\halide-sandbox\project\tutorial\halide_generator\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\vagrant\Documents\halide-sandbox\project\tutorial\halide_generator\build\CMakeFiles\halide_rt_host_runtime_gen" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\vagrant\Documents\halide-sandbox\project\tutorial\halide_generator\build\ZERO_CHECK.vcxproj">
+      <Project>{CF9EC4D8-94AE-3710-A9A6-052704452939}</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vagrant\Documents\halide-sandbox\project\tutorial\halide_generator\build\halide_library_runtime.generator_binary.vcxproj">
+      <Project>{35BA2C77-A35C-3966-B3CE-571138380ADC}</Project>
+      <Name>halide_library_runtime.generator_binary</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
