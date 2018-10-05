@@ -681,10 +681,12 @@ if("${HALIDE_TOOLS_DIR}" STREQUAL "" OR
   endif()
 endif()
 
+message(" voila ${HALIDE_SYSTEM_LIBS}")
 if("${HALIDE_SYSTEM_LIBS}" STREQUAL "")
   # If HALIDE_SYSTEM_LIBS isn't defined, we are compiling against a Halide distribution
   # folder; this is normally captured in the halide_config.cmake file. If that file
   # exists in the same directory as this one, just include it here.
+  message("le cmake_current_list_dir est ${CMAKE_CURRENT_LIST_DIR}")
   if(EXISTS "${CMAKE_CURRENT_LIST_DIR}/halide_config.cmake")
     include("${CMAKE_CURRENT_LIST_DIR}/halide_config.cmake")
   else()

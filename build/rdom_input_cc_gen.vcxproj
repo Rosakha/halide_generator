@@ -105,9 +105,9 @@
     <CustomBuild Include="C:\Users\vagrant\Documents\halide-sandbox\project\tutorial\halide_generator\build\CMakeFiles\11c9a30e63422a5bfc80486fdaefb291\rdom_input.generated.cpp.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">	Emitting extra Halide output: C:/Users/vagrant/Documents/halide-sandbox/project/tutorial/halide_generator/build/$(Configuration)/genfiles/rdom_input/rdom_input.generated.cpp</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E echo copying C:/Users/vagrant/Documents/halide-sandbox/project/tutorial/halide_generator/bin/Halide.dll to C:/Users/vagrant/Documents/halide-sandbox/project/tutorial/halide_generator/build/Debug
+"C:\Program Files\CMake\bin\cmake.exe" -E echo copying C:/Users/vagrant/Documents/halide-sandbox/project/tutorial/halide_generator/lib/Halide.lib to C:/Users/vagrant/Documents/halide-sandbox/project/tutorial/halide_generator/build/Debug
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/vagrant/Documents/halide-sandbox/project/tutorial/halide_generator/bin/Halide.dll C:/Users/vagrant/Documents/halide-sandbox/project/tutorial/halide_generator/build/Debug
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/vagrant/Documents/halide-sandbox/project/tutorial/halide_generator/lib/Halide.lib C:/Users/vagrant/Documents/halide-sandbox/project/tutorial/halide_generator/build/Debug
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files\CMake\bin\cmake.exe" -E echo Running C:/Users/vagrant/Documents/halide-sandbox/project/tutorial/halide_generator/build/Debug/rdom_input.generator_binary.exe -e cpp -o C:/Users/vagrant/Documents/halide-sandbox/project/tutorial/halide_generator/build/$(Configuration)/genfiles/rdom_input -g rdom_input -f rdom_input -x .s=.s.txt,.cpp=.generated.cpp target=host-no_runtime
 if %errorlevel% neq 0 goto :cmEnd
@@ -124,9 +124,9 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">	Emitting extra Halide output: C:/Users/vagrant/Documents/halide-sandbox/project/tutorial/halide_generator/build/$(Configuration)/genfiles/rdom_input/rdom_input.generated.cpp</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E echo copying C:/Users/vagrant/Documents/halide-sandbox/project/tutorial/halide_generator/bin/Halide.dll to C:/Users/vagrant/Documents/halide-sandbox/project/tutorial/halide_generator/build/Release
+"C:\Program Files\CMake\bin\cmake.exe" -E echo copying C:/Users/vagrant/Documents/halide-sandbox/project/tutorial/halide_generator/lib/Halide.lib to C:/Users/vagrant/Documents/halide-sandbox/project/tutorial/halide_generator/build/Release
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/vagrant/Documents/halide-sandbox/project/tutorial/halide_generator/bin/Halide.dll C:/Users/vagrant/Documents/halide-sandbox/project/tutorial/halide_generator/build/Release
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/vagrant/Documents/halide-sandbox/project/tutorial/halide_generator/lib/Halide.lib C:/Users/vagrant/Documents/halide-sandbox/project/tutorial/halide_generator/build/Release
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files\CMake\bin\cmake.exe" -E echo Running C:/Users/vagrant/Documents/halide-sandbox/project/tutorial/halide_generator/build/Release/rdom_input.generator_binary.exe -e cpp -o C:/Users/vagrant/Documents/halide-sandbox/project/tutorial/halide_generator/build/$(Configuration)/genfiles/rdom_input -g rdom_input -f rdom_input -x .s=.s.txt,.cpp=.generated.cpp target=host-no_runtime
 if %errorlevel% neq 0 goto :cmEnd
@@ -143,9 +143,9 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">	Emitting extra Halide output: C:/Users/vagrant/Documents/halide-sandbox/project/tutorial/halide_generator/build/$(Configuration)/genfiles/rdom_input/rdom_input.generated.cpp</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E echo copying C:/Users/vagrant/Documents/halide-sandbox/project/tutorial/halide_generator/bin/Halide.dll to C:/Users/vagrant/Documents/halide-sandbox/project/tutorial/halide_generator/build/MinSizeRel
+"C:\Program Files\CMake\bin\cmake.exe" -E echo copying C:/Users/vagrant/Documents/halide-sandbox/project/tutorial/halide_generator/lib/Halide.lib to C:/Users/vagrant/Documents/halide-sandbox/project/tutorial/halide_generator/build/MinSizeRel
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/vagrant/Documents/halide-sandbox/project/tutorial/halide_generator/bin/Halide.dll C:/Users/vagrant/Documents/halide-sandbox/project/tutorial/halide_generator/build/MinSizeRel
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/vagrant/Documents/halide-sandbox/project/tutorial/halide_generator/lib/Halide.lib C:/Users/vagrant/Documents/halide-sandbox/project/tutorial/halide_generator/build/MinSizeRel
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files\CMake\bin\cmake.exe" -E echo Running C:/Users/vagrant/Documents/halide-sandbox/project/tutorial/halide_generator/build/MinSizeRel/rdom_input.generator_binary.exe -e cpp -o C:/Users/vagrant/Documents/halide-sandbox/project/tutorial/halide_generator/build/$(Configuration)/genfiles/rdom_input -g rdom_input -f rdom_input -x .s=.s.txt,.cpp=.generated.cpp target=host-no_runtime
 if %errorlevel% neq 0 goto :cmEnd
@@ -162,9 +162,9 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">	Emitting extra Halide output: C:/Users/vagrant/Documents/halide-sandbox/project/tutorial/halide_generator/build/$(Configuration)/genfiles/rdom_input/rdom_input.generated.cpp</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E echo copying C:/Users/vagrant/Documents/halide-sandbox/project/tutorial/halide_generator/bin/Halide.dll to C:/Users/vagrant/Documents/halide-sandbox/project/tutorial/halide_generator/build/RelWithDebInfo
+"C:\Program Files\CMake\bin\cmake.exe" -E echo copying C:/Users/vagrant/Documents/halide-sandbox/project/tutorial/halide_generator/lib/Halide.lib to C:/Users/vagrant/Documents/halide-sandbox/project/tutorial/halide_generator/build/RelWithDebInfo
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/vagrant/Documents/halide-sandbox/project/tutorial/halide_generator/bin/Halide.dll C:/Users/vagrant/Documents/halide-sandbox/project/tutorial/halide_generator/build/RelWithDebInfo
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/vagrant/Documents/halide-sandbox/project/tutorial/halide_generator/lib/Halide.lib C:/Users/vagrant/Documents/halide-sandbox/project/tutorial/halide_generator/build/RelWithDebInfo
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files\CMake\bin\cmake.exe" -E echo Running C:/Users/vagrant/Documents/halide-sandbox/project/tutorial/halide_generator/build/RelWithDebInfo/rdom_input.generator_binary.exe -e cpp -o C:/Users/vagrant/Documents/halide-sandbox/project/tutorial/halide_generator/build/$(Configuration)/genfiles/rdom_input -g rdom_input -f rdom_input -x .s=.s.txt,.cpp=.generated.cpp target=host-no_runtime
 if %errorlevel% neq 0 goto :cmEnd

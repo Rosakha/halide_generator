@@ -83,7 +83,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\vagrant\Documents\halide-sandbox\project\tutorial\halide_generator\include;C:\Users\vagrant\Documents\halide-sandbox\project\tutorial\halide_generator\tools;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\vagrant\Documents\halide-sandbox\project\tutorial\halide_generator\include;C:\Users\vagrant\Documents\halide-sandbox\project\tutorial\halide_generator\tools;C:\Users\vagrant\Documents\halide-sandbox\project\tutorial\halide_generator\build\$(Configuration)\genfiles\rdom_input;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>Debug/</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <CompileAs>CompileAsCpp</CompileAs>
@@ -101,10 +101,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\vagrant\Documents\halide-sandbox\project\tutorial\halide_generator\include;C:\Users\vagrant\Documents\halide-sandbox\project\tutorial\halide_generator\tools;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\vagrant\Documents\halide-sandbox\project\tutorial\halide_generator\include;C:\Users\vagrant\Documents\halide-sandbox\project\tutorial\halide_generator\tools;C:\Users\vagrant\Documents\halide-sandbox\project\tutorial\halide_generator\build\$(Configuration)\genfiles\rdom_input;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\vagrant\Documents\halide-sandbox\project\tutorial\halide_generator\include;C:\Users\vagrant\Documents\halide-sandbox\project\tutorial\halide_generator\tools;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\vagrant\Documents\halide-sandbox\project\tutorial\halide_generator\include;C:\Users\vagrant\Documents\halide-sandbox\project\tutorial\halide_generator\tools;C:\Users\vagrant\Documents\halide-sandbox\project\tutorial\halide_generator\build\$(Configuration)\genfiles\rdom_input;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -112,7 +112,7 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>rdom_input.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>$(Configuration)\genfiles\rdom_input\rdom_input.lib;$(Configuration)\genfiles\halide_rt_host\halide_rt_host.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -127,7 +127,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\vagrant\Documents\halide-sandbox\project\tutorial\halide_generator\include;C:\Users\vagrant\Documents\halide-sandbox\project\tutorial\halide_generator\tools;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\vagrant\Documents\halide-sandbox\project\tutorial\halide_generator\include;C:\Users\vagrant\Documents\halide-sandbox\project\tutorial\halide_generator\tools;C:\Users\vagrant\Documents\halide-sandbox\project\tutorial\halide_generator\build\$(Configuration)\genfiles\rdom_input;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>Release/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <ExceptionHandling>Sync</ExceptionHandling>
@@ -145,10 +145,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\vagrant\Documents\halide-sandbox\project\tutorial\halide_generator\include;C:\Users\vagrant\Documents\halide-sandbox\project\tutorial\halide_generator\tools;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\vagrant\Documents\halide-sandbox\project\tutorial\halide_generator\include;C:\Users\vagrant\Documents\halide-sandbox\project\tutorial\halide_generator\tools;C:\Users\vagrant\Documents\halide-sandbox\project\tutorial\halide_generator\build\$(Configuration)\genfiles\rdom_input;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\vagrant\Documents\halide-sandbox\project\tutorial\halide_generator\include;C:\Users\vagrant\Documents\halide-sandbox\project\tutorial\halide_generator\tools;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\vagrant\Documents\halide-sandbox\project\tutorial\halide_generator\include;C:\Users\vagrant\Documents\halide-sandbox\project\tutorial\halide_generator\tools;C:\Users\vagrant\Documents\halide-sandbox\project\tutorial\halide_generator\build\$(Configuration)\genfiles\rdom_input;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -156,7 +156,7 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>rdom_input.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>$(Configuration)\genfiles\rdom_input\rdom_input.lib;$(Configuration)\genfiles\halide_rt_host\halide_rt_host.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
@@ -171,7 +171,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\vagrant\Documents\halide-sandbox\project\tutorial\halide_generator\include;C:\Users\vagrant\Documents\halide-sandbox\project\tutorial\halide_generator\tools;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\vagrant\Documents\halide-sandbox\project\tutorial\halide_generator\include;C:\Users\vagrant\Documents\halide-sandbox\project\tutorial\halide_generator\tools;C:\Users\vagrant\Documents\halide-sandbox\project\tutorial\halide_generator\build\$(Configuration)\genfiles\rdom_input;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <ExceptionHandling>Sync</ExceptionHandling>
@@ -189,10 +189,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\vagrant\Documents\halide-sandbox\project\tutorial\halide_generator\include;C:\Users\vagrant\Documents\halide-sandbox\project\tutorial\halide_generator\tools;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\vagrant\Documents\halide-sandbox\project\tutorial\halide_generator\include;C:\Users\vagrant\Documents\halide-sandbox\project\tutorial\halide_generator\tools;C:\Users\vagrant\Documents\halide-sandbox\project\tutorial\halide_generator\build\$(Configuration)\genfiles\rdom_input;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\vagrant\Documents\halide-sandbox\project\tutorial\halide_generator\include;C:\Users\vagrant\Documents\halide-sandbox\project\tutorial\halide_generator\tools;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\vagrant\Documents\halide-sandbox\project\tutorial\halide_generator\include;C:\Users\vagrant\Documents\halide-sandbox\project\tutorial\halide_generator\tools;C:\Users\vagrant\Documents\halide-sandbox\project\tutorial\halide_generator\build\$(Configuration)\genfiles\rdom_input;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -200,7 +200,7 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>rdom_input.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>$(Configuration)\genfiles\rdom_input\rdom_input.lib;$(Configuration)\genfiles\halide_rt_host\halide_rt_host.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
@@ -215,7 +215,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\vagrant\Documents\halide-sandbox\project\tutorial\halide_generator\include;C:\Users\vagrant\Documents\halide-sandbox\project\tutorial\halide_generator\tools;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\vagrant\Documents\halide-sandbox\project\tutorial\halide_generator\include;C:\Users\vagrant\Documents\halide-sandbox\project\tutorial\halide_generator\tools;C:\Users\vagrant\Documents\halide-sandbox\project\tutorial\halide_generator\build\$(Configuration)\genfiles\rdom_input;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -232,10 +232,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\vagrant\Documents\halide-sandbox\project\tutorial\halide_generator\include;C:\Users\vagrant\Documents\halide-sandbox\project\tutorial\halide_generator\tools;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\vagrant\Documents\halide-sandbox\project\tutorial\halide_generator\include;C:\Users\vagrant\Documents\halide-sandbox\project\tutorial\halide_generator\tools;C:\Users\vagrant\Documents\halide-sandbox\project\tutorial\halide_generator\build\$(Configuration)\genfiles\rdom_input;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\vagrant\Documents\halide-sandbox\project\tutorial\halide_generator\include;C:\Users\vagrant\Documents\halide-sandbox\project\tutorial\halide_generator\tools;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\vagrant\Documents\halide-sandbox\project\tutorial\halide_generator\include;C:\Users\vagrant\Documents\halide-sandbox\project\tutorial\halide_generator\tools;C:\Users\vagrant\Documents\halide-sandbox\project\tutorial\halide_generator\build\$(Configuration)\genfiles\rdom_input;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -243,7 +243,7 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>rdom_input.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>$(Configuration)\genfiles\rdom_input\rdom_input.lib;$(Configuration)\genfiles\halide_rt_host\halide_rt_host.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -319,6 +319,14 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ProjectReference Include="C:\Users\vagrant\Documents\halide-sandbox\project\tutorial\halide_generator\build\ZERO_CHECK.vcxproj">
       <Project>{CF9EC4D8-94AE-3710-A9A6-052704452939}</Project>
       <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vagrant\Documents\halide-sandbox\project\tutorial\halide_generator\build\halide_rt_host_runtime_gen.vcxproj">
+      <Project>{D6F60036-AF3B-3345-BAA8-2A1D9116B647}</Project>
+      <Name>halide_rt_host_runtime_gen</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vagrant\Documents\halide-sandbox\project\tutorial\halide_generator\build\rdom_input_lib_gen.vcxproj">
+      <Project>{FA885577-555C-37CE-A11E-D0F965C8B51D}</Project>
+      <Name>rdom_input_lib_gen</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

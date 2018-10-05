@@ -164,6 +164,10 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <Project>{CF9EC4D8-94AE-3710-A9A6-052704452939}</Project>
       <Name>ZERO_CHECK</Name>
     </ProjectReference>
+    <ProjectReference Include="C:\Users\vagrant\Documents\halide-sandbox\project\tutorial\halide_generator\build\halide_library_runtime.generator_binary.vcxproj">
+      <Project>{35BA2C77-A35C-3966-B3CE-571138380ADC}</Project>
+      <Name>halide_library_runtime.generator_binary</Name>
+    </ProjectReference>
     <ProjectReference Include="C:\Users\vagrant\Documents\halide-sandbox\project\tutorial\halide_generator\build\rdom_input.generator_binary.vcxproj">
       <Project>{2D056E64-E698-3F55-AA8C-F8715060C966}</Project>
       <Name>rdom_input.generator_binary</Name>
